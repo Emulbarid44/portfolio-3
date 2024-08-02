@@ -1,0 +1,41 @@
+/* styles.css */
+body.dark-theme {
+    background-color: #000000;
+    color: darkorange;
+  }
+  
+  .navbar-dark .navbar-brand, .navbar-dark .nav-link {
+    color: #ffffff;
+  }
+  
+  
+    .dark-header {
+      background-image: url('istockphoto-1255905270-1024x1024.jpg'); 
+      background-size: cover; 
+      background-position: center; 
+      background-repeat: no-repeat; 
+      color: white; 
+      padding: 100px 0; 
+    }
+    
+  
+  
+  .dark-card {
+    background-color: #1c1c1c;
+    color: #ffffff;
+  }
+  
+  .dark-card .card-body {
+    border-top: 1px solid #444;
+  }
+  
+  .btn-primary {
+    background-color: #6200ea;
+    border-color: #6200ea;
+  }
+  
+  .btn-primary:hover {
+    background-color: #3700b3;
+    border-color: #3700b3;
+  }
+  
