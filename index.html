@@ -13,7 +13,7 @@
     }
     a, a.nav-link, .btn-primary {
       color: white;
-      background-color: grey;
+      background-color: black;
       border-color: grey;
     }
     .btn-primary:hover {
@@ -33,9 +33,27 @@
     }
     .card {
       border: 1px solid darkolivegreen;
+      margin: bottom 20px; 
     }
     .card-img-top {
       filter: grayscale(100%);
+    }
+    .project-btn {
+      padding: 0;
+      border: none;
+      background: none;
+      text-align: left;
+      width: 100%;
+      margin: 10px; 
+    }
+    .project-btn:hover .card {
+      border-color: limegreen;
+      background-color: limegreen;
+      color: white ;
+      border-color: antiquewhite;
+    }
+    .project-btn:focus {
+      outline: none;
     }
   </style>
 </head>
@@ -76,36 +94,39 @@
     <div class="row">
       <!-- Project 1 -->
       <div class="col-md-4">
-        <div class="card">
-          <img src="project1.jpg" class="card-img-top" alt="Project 1">
-          <div class="card-body">
-            <h5 class="card-title">Cash Compass</h5>
-            <p class="card-text">A sleek and intuitive expense tracker designed to help you manage your finances effortlessly.</p>
-            <a href="#" class="btn btn-primary">View Project</a>
+        <button class="project-btn" onclick="window.location.href='#'">
+          <div class="card">
+            <img src="project1.jpg" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Cash Compass</h5>
+              <p class="card-text">A sleek and intuitive expense tracker designed to help you manage your finances effortlessly.</p>
+            </div>
           </div>
-        </div>
+        </button>
       </div>
       <!-- Project 2 -->
       <div class="col-md-4">
-        <div class="card">
-          <img src="project2.jpg" class="card-img-top" alt="Project 2">
-          <div class="card-body">
-            <h5 class="card-title">Social Pulse</h5>
-            <p class="card-text">streamline your online presence by aggregating and managing feeds from various social media platforms in one intitive interface.</p>
-            <a href="#" class="btn btn-primary">View Project</a>
+        <button class="project-btn" onclick="window.location.href='#'">
+          <div class="card">
+            <img src="project2.jpg" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Social Pulse</h5>
+              <p class="card-text">Streamline your online presence by aggregating and managing feeds from various social media platforms in one intuitive interface.</p>
+            </div>
           </div>
-        </div>
+        </button>
       </div>
       <!-- Project 3 -->
       <div class="col-md-4">
-        <div class="card">
-          <img src="project3.jpg" class="card-img-top" alt="Project 3">
-          <div class="card-body">
-            <h5 class="card-title">Vibrations</h5>
-            <p class="card-text">Dynamic lifestyle blog that captures the essence of modern living.</p>
-            <a href="#" class="btn btn-primary">View Project</a>
+        <button class="project-btn" onclick="window.location.href='#'">
+          <div class="card">
+            <img src="project3.jpg" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">Vibrations</h5>
+              <p class="card-text">Dynamic lifestyle blog that captures the essence of modern living.</p>
+            </div>
           </div>
-        </div>
+        </button>
       </div>
     </div>
   </section>
@@ -163,5 +184,6 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
 
 
